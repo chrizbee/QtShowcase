@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file>fusiondark.qss</file>
+        <file>fusionlight.qss</file>
+    </qresource>
+</RCC>

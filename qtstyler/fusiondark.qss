@@ -1,0 +1,64 @@
+QToolTip {
+	color: palette(text);
+	background: palette(base);
+	border: 1px solid palette(highlight);
+}
+
+QToolBar::top {
+	border-bottom: 3px solid qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 palette(base), stop:1 palette(window));
+}
+
+QToolBar::bottom {
+	border-top: 3px solid qlineargradient(x1:0, y1:1, x2:0, y2:0, stop:0 palette(base), stop:1 palette(window));
+}
+
+QToolBar::left {
+	border-right: 3px solid qlineargradient(x1:0, y1:0, x2:1, y2:0, stop:0 palette(base), stop:1 palette(window));
+}
+
+QToolBar::right {
+	border-left: 3px solid qlineargradient(x1:1, y1:0, x2:0, y2:0, stop:0 palette(base), stop:1 palette(window));
+}
+
+QSlider::handle:horizontal {
+	border-radius: 4px;
+	border: 1px solid palette(base);
+        background: #555;
+	min-height: 12px;
+	width: 12px;
+	margin-top: -3px;
+	margin-bottom: -3px;
+}
+
+QSlider::handle:horizontal:hover {
+        background: #777;
+}
+
+QSlider::groove:horizontal {
+	background: palette(base);
+	border: 1px solid palette(base);
+	border-radius: 2px;
+	height: 9px;
+}
+
+QSlider::add-page:horizontal {
+	background: palette(base);
+	border: 1px solid palette(base);
+	border-radius: 2px;
+	height: 9px;
+}
+
+QSlider::sub-page:horizontal {
+	background: palette(highlight);
+	border: 1px solid palette(base);
+	border-radius: 2px;
+	height: 9px;
+}
+
+QSlider::add-page:horizontal:disabled {
+	background: #333;
+}
+
+QSlider::sub-page:horizontal:disabled {
+	background: palette(alternate-base);
+}
