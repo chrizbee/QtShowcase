@@ -2,7 +2,12 @@
 **QtShowcase** is a *Qt5-Application* that is based on the [QtWidget Gallery](https://doc.qt.io/qt-5/gallery.html).
 The app should showcase [QtStyler](https://github.com/chrizbee/QtStyler).
 
-![](images/fusion_light.png) ![](images/fusion_dark.png) ![](images/windowsvista_light.png) ![](images/windows_light.png)
+<p float="left">
+  <img src="images/fusion_light.png" width="200" />
+  <img src="images/fusion_dark.png" width="200" /> 
+  <img src="images/windowsvista_light.png" width="200" />
+  <img src="images/windows_light.png" width="200" />
+</p>
 
 ## Getting Started
 
