@@ -23,6 +23,7 @@ Clone the GitHub repository
 ```bash
 git clone https://github.com/chrizbee/QtShowcase
 cd QtShowcase
+git clone https://github.com/chrizbee/QtStyler
 ```
 
 Build it using `qmake` and `make`
