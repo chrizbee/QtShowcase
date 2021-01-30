@@ -2,6 +2,8 @@
 **QtShowcase** is a *Qt5-Application* that is based on the [QtWidget Gallery](https://doc.qt.io/qt-5/gallery.html).
 The app should showcase [QtStyler](https://github.com/chrizbee/QtStyler).
 
+![](images/fusion_light.png) ![](images/fusion_dark.png) ![](images/windowsvista_light.png) ![](images/windows_light.png)
+
 ## Getting Started
 
 Get started by by building it with `qmake` and `make` (for *Windows*, *Linux* and *Mac*).
