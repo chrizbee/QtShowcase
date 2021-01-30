@@ -1,6 +1,6 @@
 #include "mainwindow.h"
 #include "ui_mainwindow.h"
-#include "qtstyler/qtstyler.h"
+#include <QtStyler/qtstyler.h>
 #include <QDesktopServices>
 #include <QFileDialog>
 #include <QTimer>
