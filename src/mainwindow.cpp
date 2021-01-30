@@ -19,7 +19,7 @@ MainWindow::MainWindow(QWidget *parent) :
 	connect(ui_->actionOpen, &QAction::triggered, [this]() { QFileDialog::getOpenFileName(this, tr("Open File")); });
 	connect(ui_->actionSave, &QAction::triggered, [this]() { QFileDialog::getSaveFileName(this, tr("Save File")); });
 	connect(ui_->actionIcons8, &QAction::triggered, []() { QDesktopServices::openUrl(QUrl("https://icons8.com")); });
-	connect(ui_->actionShowcase, &QAction::triggered, []() { QDesktopServices::openUrl(QUrl("Github TODO")); });
+	connect(ui_->actionShowcase, &QAction::triggered, []() { QDesktopServices::openUrl(QUrl("https://github.com/chrizbee/QtShowcase")); });
 	connect(ui_->actionStatusbar, &QAction::toggled, ui_->statusbar, &QStatusBar::setVisible);
 	connect(ui_->actionToolbar, &QAction::toggled, ui_->toolbar, &QToolBar::setVisible);
 	connect(ui_->chDisable, &QCheckBox::clicked, ui_->mainWidget, &QWidget::setDisabled);
