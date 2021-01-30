@@ -8,7 +8,7 @@
 MainWindow::MainWindow(QWidget *parent) :
 	QMainWindow(parent),
 	ui_(new Ui::MainWindow),
-	styler_(new QtStyler)
+	styler_(new QtStyler(this))
 {
 	// Initialize UI
 	ui_->setupUi(this);

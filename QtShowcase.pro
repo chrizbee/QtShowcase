@@ -6,7 +6,7 @@ CONFIG += c++14
 VERSION = 0.1.0
 DEFINES += APP_VERSION=\\\"$$VERSION\\\"
 
-include(qtstyler/qtstyler.pri)
+include(QtStyler/qtstyler.pri)
 
 CONFIG(release, debug|release) {
     OBJECTS_DIR = release/obj
