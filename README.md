@@ -11,7 +11,7 @@ The app should showcase [QtStyler](https://github.com/chrizbee/QtStyler).
 
 ## Getting Started
 
-Get started by by building it with `qmake` and `make` (for *Windows*, *Linux* and *Mac*).
+Get started by building it with `qmake` and `make` (for *Windows*, *Linux* and *Mac*).
 
 ### Prerequisites
 
